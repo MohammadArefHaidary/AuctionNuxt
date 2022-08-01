@@ -4,7 +4,7 @@
         <div class="row">
             
             <div class="col-sm-5 col-md-6 column2">
-                  <NuxtLink to="/contact"><img
+                  <NuxtLink to="/product"><img
                         src="/images/new.avif" alt="" style="width: 100%;" class="img-fluid">
              </NuxtLink>
             </div>
@@ -67,7 +67,10 @@
         </div>
     </div>
 
+    <div class="container">
      <div class="moditit" dir="rtl" style="font-weight:500;font-size:24px;">مدیریت مجموعه ها</div>
+
+    </div>
 
     <div class="main1">
 

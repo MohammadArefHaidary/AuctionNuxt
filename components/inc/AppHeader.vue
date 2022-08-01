@@ -25,7 +25,9 @@
         </div>
 
     </div>
-    <div id="nav4">
+
+    <div class="container-fluid">
+   <div id="nav4">
         <nav class="navbar navbar-expand-lg">
             <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -35,7 +37,7 @@
                 <span class="toggler-icon bottom-bar"></span>
             </button>
             <a class="navbar-brand" href="#" style="color:black;">
-              <img src="/images/logo.jpeg" class="logo-img" alt="">
+              <!-- <img src="/images/logo.jpeg" class="logo-img" alt=""> -->لوگو
             </a>
             <input class="form-control" type="search" placeholder="جستجو" aria-label="search" dir="rtl">
 
@@ -46,10 +48,12 @@
                     </li>
                 </ul>
 
-                <NuxtLink to="/contact">
+
+                <NuxtLink to="/product">
                     <div class="wallet"><button class="btn btn-outline-success raise"
-                            style="color: white;background-color: black;" type="submit">وصل شدن
-                            به کیف پول</button>
+                            style="color: white;background-color: black;" type="submit" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"> ثبت نام
+                              </button>
 
                     </div>
                 </NuxtLink>
@@ -59,6 +63,10 @@
 
         </div>
     </div>
+
+
+    </div>
+ 
 </template>
 
 <script>
