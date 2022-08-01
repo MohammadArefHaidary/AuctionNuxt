@@ -508,6 +508,13 @@ a:-webkit-any-link {
 
 
 }
+@media (max-width: 600px){
+.imgg {
+    width: 100%;
+    display: block;
+
+}
+}
 
 .tab {
     background: #ffffff;

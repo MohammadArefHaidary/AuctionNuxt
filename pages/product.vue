@@ -1,6 +1,6 @@
 <template>
   <div>
-         <div class="container mb-4">
+         <div class="container">
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center" style="margin-top: 109px;">
                     <img src="/images/new.avif" alt="" class="img-fluid imgg">
