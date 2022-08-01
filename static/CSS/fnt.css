@@ -1,4 +1,4 @@
-@import url(fontiran.css);
+@import url(~@/static/CSS/fontiran.css);
 
 body {
     font-family: iransans !important;
