@@ -29,14 +29,6 @@ export default {
         rel: "stylesheet",
         href: "./CSS/user_style.css",
       },
-      {
-        rel: "stylesheet",
-        href: "./CSS/fnt.css",
-      },
-      {
-        rel: "stylesheet",
-        href: "./CSS/fontiran.css",
-      },
     ],
     script: [
       {
@@ -52,7 +44,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    
+    '~/static/CSS/fnt.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
