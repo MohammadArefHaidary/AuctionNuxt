@@ -1117,7 +1117,7 @@ body {
 
 
 
-@media (min-width:600px) {
+@media (min-width:991px) {
 
     .tab-nav-container {
         display: none;
@@ -1319,7 +1319,7 @@ input:focus {
 }
 
 
-@media (min-width:600px) {
+@media (min-width:991px) {
     .main-mobile-nav {
         display: none;
     }
