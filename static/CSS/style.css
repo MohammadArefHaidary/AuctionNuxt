@@ -1385,6 +1385,8 @@ input:focus {
     }
 
     .gallery>div.card {
+    overflow: hidden;
+
         scroll-snap-align: center;
         display: inline-block;
         /* border-radius: 40px; */
