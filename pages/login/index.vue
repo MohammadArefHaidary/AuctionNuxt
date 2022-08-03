@@ -15,7 +15,7 @@
             <div class="remember"> <label class="option text-muted"> ذخیره <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div>
             <div class="ml-auto"> <a href="#" id="forgot" style="color:black;">رمز را فراموش کردین؟</a> </div>
         </div> <button class="btn btn-block text-center my-3">ورود</button>
-        <div class="text-center pt-3 text-muted">عضو نیستید؟<NuxtLink to="/register">ثبت نام </NuxtLink></div>
+        <div class="text-center pt-3 text-muted">عضو نیستید؟<NuxtLink to="/register" style="color:black;">ثبت نام </NuxtLink></div>
     </form>
 </div>
   </div>
@@ -69,7 +69,7 @@ export default {
     display: flex;
     align-items: center;
     cursor: pointer;
-    border: 1px solid #400485;
+    border: 1px solid black;
     color: #400485
 }
 
