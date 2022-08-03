@@ -395,5 +395,6 @@ export default {
 </script>
 
 <style>
+@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
 
 </style>

@@ -49,7 +49,7 @@
                 </ul>
 
 
-                <NuxtLink to="/product">
+                <NuxtLink to="/login">
                     <div class="wallet"><button class="btn btn-outline-success raise"
                             style="color: white;background-color: black;" type="submit" data-bs-toggle="modal"
                             data-bs-target="#exampleModal"> ثبت نام
@@ -82,6 +82,8 @@ export default {
   width: 80px;
 
 }
+
+
 
 
 </style>
