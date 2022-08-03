@@ -68,9 +68,9 @@
     </div>
 
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
         <hr>
-    </div>
+    </div> -->
     <div class="container-fluid">
      <div class="moditit" dir="rtl" style="font-weight:500;font-size:24px;margin-right:18px">مدیریت مجموعه ها</div>
 

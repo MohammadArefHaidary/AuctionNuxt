@@ -36,12 +36,12 @@ export default {
     box-sizing: border-box
 }
 
-body {
+/* body {
     background-color: #eee;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat
-}
+} */
 
 .wrapper {
     max-width: 500px;
