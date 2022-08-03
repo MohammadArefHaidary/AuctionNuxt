@@ -6,14 +6,14 @@
     <div class="h4 text-muted text-center pt-2">مشخصات ورود خودرا وارد کنید.</div>
     <form class="pt-3">
         <div class="form-group py-2">
-            <div class="input-field"> <span class="far fa-user p-2"></span> <input type="text" placeholder="نام کاربری یا ایمیل" required class=""> </div>
+            <div class="input-field"> <span class="far fa-user p-2" style="color:black;"></span> <input type="text" placeholder="نام کاربری یا ایمیل" required class=""> </div>
         </div>
         <div class="form-group py-1 pb-2">
-            <div class="input-field"> <span class="fas fa-lock p-2"></span> <input type="text" placeholder="رمز خود را وارد کنید" required class=""> <button class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span> </button> </div>
+            <div class="input-field"> <span class="fas fa-lock p-2" style="color:black;"></span> <input type="text" placeholder="رمز خود را وارد کنید" required class=""> <button class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span> </button> </div>
         </div>
-        <div class="d-flex align-items-start">
+        <div class="d-flex align-items-start" style="justify-content:space-around;">
             <div class="remember"> <label class="option text-muted"> ذخیره <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div>
-            <div class="ml-auto"> <a href="#" id="forgot">رمز را فراموش کردین؟</a> </div>
+            <div class="ml-auto"> <a href="#" id="forgot" style="color:black;">رمز را فراموش کردین؟</a> </div>
         </div> <button class="btn btn-block text-center my-3">ورود</button>
         <div class="text-center pt-3 text-muted">عضو نیستید؟<NuxtLink to="/register">ثبت نام </NuxtLink></div>
     </form>
@@ -48,14 +48,14 @@ export default {
     border-radius: 10px;
     margin: 50px auto;
     padding: 30px 40px;
-    box-shadow: 20px 20px 80px rgb(206, 206, 206)
+    box-shadow: 1px 0px 5px black;
 }
 
 .h2 {
     font-family: 'Kaushan Script', cursive;
     font-size: 3.5rem;
     font-weight: bold;
-    color: #400485;
+    color: black;
     font-style: italic
 }
 
@@ -161,12 +161,12 @@ a:hover {
 
 .btn.btn-block {
     border-radius: 20px;
-    background-color: #400485;
+    background-color: black;
     color: #fff
 }
 
 .btn.btn-block:hover {
-    background-color: #55268be0
+    background-color: blue;
 }
 
 @media(max-width: 575px) {
