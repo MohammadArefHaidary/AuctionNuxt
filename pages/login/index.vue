@@ -74,8 +74,8 @@ export default {
 }
 
 .input-field:hover {
-    color: #7b4ca0;
-    border: 1px solid #7b4ca0
+    color: black;
+    border: 1px solid black;
 }
 
 input {
