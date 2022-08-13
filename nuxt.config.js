@@ -22,19 +22,19 @@ export default {
         rel: "stylesheet",
         href: "./CSS/bootstrap.rtl.min.css",
       },
-      {
-        rel: "stylesheet",
-        href: "./CSS/product_style.css",
-      },
+      // {
+      //   rel: "stylesheet",
+      //   href: "./CSS/product_style.css",
+      // },
       
-      {
-        rel: "stylesheet",
-        href: "./CSS/style.css",
-      },
-      {
-        rel: "stylesheet",
-        href: "./CSS/user_style.css",
-      },
+      // {
+      //   rel: "stylesheet",
+      //   href: "./CSS/style.css",
+      // },
+      // {
+      //   rel: "stylesheet",
+      //   href: "./CSS/user_style.css",
+      // },
     ],
     script: [
       {
@@ -50,7 +50,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/static/CSS/fnt.css',
+    // '~/static/CSS/fnt.css',
     '~/assets/css/app.css',
     
   ],
