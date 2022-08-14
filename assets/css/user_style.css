@@ -104,8 +104,13 @@ section {
 
 .navbar {
 
+<<<<<<< HEAD
   /* background-image: url("../images/new.avif"); */
   padding-bottom: 100px;
+=======
+    /* background-image: url("~/assets/images/photo-1515339760107-1952b7a08454.avif"); */
+    padding-bottom: 100px;
+>>>>>>> 7a67072b7030612051c71ab14d64ef444bca9c7e
 }
 
 .navbar-brand {

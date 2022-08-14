@@ -22,6 +22,22 @@ export default {
         rel: "stylesheet",
         href: "./CSS/bootstrap.rtl.min.css",
       },
+<<<<<<< HEAD
+=======
+      // {
+      //   rel: "stylesheet",
+      //   href: "./CSS/product_style.css",
+      // },
+      
+      // {
+      //   rel: "stylesheet",
+      //   href: "./CSS/style.css",
+      // },
+      // {
+      //   rel: "stylesheet",
+      //   href: "./CSS/user_style.css",
+      // },
+>>>>>>> 7a67072b7030612051c71ab14d64ef444bca9c7e
     ],
     script: [
       {
@@ -37,7 +53,11 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+<<<<<<< HEAD
     '~/assets/css/fnt.css',
+=======
+    // '~/static/CSS/fnt.css',
+>>>>>>> 7a67072b7030612051c71ab14d64ef444bca9c7e
     '~/assets/css/app.css',
     
   ],
