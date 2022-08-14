@@ -6,7 +6,7 @@
           class="col-md-12 d-flex justify-content-center"
           style="margin-top: 109px"
         >
-          <img src="../static/images/new.avif" alt="" class="img-fluid imgg" />
+          <img src="../assets/images/new.avif" alt="" class="img-fluid imgg" />
         </div>
       </div>
     </div>
@@ -112,12 +112,7 @@
                 <div>
                   <a href="" class="d-flex"
                     >مشاهده در Etherscan
-                    <span
-                      class="material-symbols-outlined"
-                      style="margin-right: 12px"
-                    >
-                      visibility
-                    </span>
+                    <span class="material-icons">visibility</span>
                   </a>
                 </div>
               </div>
@@ -127,12 +122,7 @@
                   <div>
                     <a href="" class="lnks d-flex align-items-center"
                       >مشاهده متادیتا
-                      <span
-                        class="material-symbols-outlined"
-                        style="margin-right: 55px"
-                      >
-                        view_in_ar
-                      </span>
+                      <span class="material-icons">view_in_ar</span>
                     </a>
                   </div>
                 </div>
@@ -142,12 +132,7 @@
                 <div>
                   <a href="" class="lnks d-flex align-items-center"
                     >مشاهده در IPFS
-                    <span
-                      class="material-symbols-outlined"
-                      style="margin-right: 47px"
-                    >
-                      view_kanban
-                    </span>
+                    <span class="material-icons">view_in_ar</span>
                   </a>
                 </div>
               </div>
@@ -264,7 +249,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="../assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -322,7 +307,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="../assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -380,7 +365,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="../assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -438,7 +423,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="../assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -496,7 +481,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="../assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -554,7 +539,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="../assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -612,7 +597,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="../assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"

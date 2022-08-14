@@ -22,19 +22,6 @@ export default {
         rel: "stylesheet",
         href: "./CSS/bootstrap.rtl.min.css",
       },
-      {
-        rel: "stylesheet",
-        href: "./CSS/product_style.css",
-      },
-      
-      {
-        rel: "stylesheet",
-        href: "./CSS/style.css",
-      },
-      {
-        rel: "stylesheet",
-        href: "./CSS/user_style.css",
-      },
     ],
     script: [
       {
@@ -50,7 +37,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/static/CSS/fnt.css',
+    '~/assets/css/fnt.css',
     '~/assets/css/app.css',
     
   ],
@@ -66,17 +53,16 @@ export default {
     '@nuxtjs/fontawesome',
   ],
   fontawesome: {
-    component: 'Fa',
-    suffix: false,
     icons: {
       solid: true,
-      brands: true,
-    },
+      brands: true
+    }
 },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
+    'nuxt-material-design-icons-iconfont',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
