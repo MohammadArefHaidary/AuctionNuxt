@@ -5,14 +5,14 @@
     box-sizing: border-box;
     font-family: 'montserrat', sans-serif;
 } */
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
 
 @import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
-/* 
+/*
 * {
     font-family: 'Roboto Mono', monospace;
     font-family: 'Work Sans', sans-serif;
@@ -124,6 +124,7 @@ section {
 }
 
 body {
+  /*direction: rtl;*/
   line-height: 1;
   /* margin: -2px; */
 }
@@ -667,7 +668,7 @@ video {
   width: 86px;
   height: 83px;
   /* background-color: white; */
-  background-image: url("../images/pexels-photo-2915957.jpeg");
+  background-image: url("~assets/images/pexels-photo-2915957.jpeg");
   border-radius: 13px;
   border: 7px solid gray;
   border-radius: 8px
@@ -758,7 +759,7 @@ video {
   position: relative;
   transition: box-shadow .3s;
   overflow: hidden;
-  background-image: url(/images/patterns/canvas-grid.svg);
+  background-image: url(https://foundation.app/images/patterns/canvas-grid.svg);
 }
 
 .middle-card a::before {
@@ -1494,7 +1495,7 @@ input:focus {
 
 }
 
-/* 
+/*
 @media (min-width:800px) {
     .card {
         width: 22rem;

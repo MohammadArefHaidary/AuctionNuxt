@@ -7,18 +7,18 @@ export default {
 
     },
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "Auction website" },
-      { name: "format-detection", content: "telephone=no" },
+      {charset: "utf-8"},
+      {name: "viewport", content: "width=device-width, initial-scale=1"},
+      {hid: "description", name: "description", content: "Auction website"},
+      {name: "format-detection", content: "telephone=no"},
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {rel: "icon", type: "image/x-icon", href: "/favicon.ico"},
       {
         rel: "stylesheet",
         href: "./css/bootstrap.min.css",
       },
-       {
+      {
         rel: "stylesheet",
         href: "./css/bootstrap.rtl.min.css",
       },
@@ -59,17 +59,26 @@ export default {
       solid: true,
       brands: true,
     },
-},
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
+    '@nuxtjs/auth-next'
   ],
-
+  auth: {
+    strategies: {
+      laravelSanctum: {
+        provider: 'laravel/sanctum',
+        url: 'http://auction.lora122.ir'
+      },
+    }
+  },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: "/",
+    baseURL: "http://auction.lora122.ir",
+    credentials: true
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

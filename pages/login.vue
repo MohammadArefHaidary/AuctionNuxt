@@ -5,13 +5,15 @@
       <div class="h4 text-muted text-center pt-2">
         مشخصات ورود خودرا وارد کنید.
       </div>
-      <form class="pt-3">
+      <form @submit.prevent="login" class="pt-3">
         <div class="form-group py-2">
           <div class="input-field">
             <span class="far fa-user p-2" style="color: black"></span>
-            <input
-              type="text"
-              placeholder="نام کاربری یا ایمیل"
+            <input style="direction: rtl !important;"
+              type="email"
+              id="email"
+              v-model="form.email"
+              placeholder="ایمیل خود را وارد کنید"
               required
               class=""
             />
@@ -21,8 +23,11 @@
           <div class="input-field">
             <span class="fas fa-lock p-2" style="color: black"></span>
             <input
-              type="text"
+              type="password"
+              name="password"
+              id="password"
               placeholder="رمز خود را وارد کنید"
+              v-model="form.password"
               required
               class=""
             />
@@ -37,20 +42,21 @@
         >
           <div class="remember">
             <label class="option text-muted">
-              ذخیره <input type="radio" name="radio" />
+              ذخیره <input type="radio" name="radio"/>
               <span class="checkmark"></span>
             </label>
           </div>
           <div class="ml-auto">
             <a href="#" id="forgot" style="color: black"
-              >رمز را فراموش کردین؟</a
+            >رمز را فراموش کردین؟</a
             >
           </div>
         </div>
         <button class="btn btn-block text-center my-3">ورود</button>
         <div class="text-center pt-3 text-muted">
-          عضو نیستید؟<NuxtLink to="/register" style="color: black"
-            >ثبت نام
+          عضو نیستید؟
+          <NuxtLink to="/register" style="color: black"
+          >ثبت نام
           </NuxtLink>
         </div>
       </form>
@@ -60,7 +66,26 @@
 
 <script>
 export default {
-  name: "login",
+  data() {
+    return {
+      form: {
+        email: "",
+        password: "",
+      },
+    };
+  },
+  methods: {
+    async login() {
+      try {
+        this.$auth.loginWith("laravelSanctum", {
+          data: this.form
+        });
+
+      } catch (e) {
+        //
+      }
+    },
+  },
 };
 </script>
 

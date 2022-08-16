@@ -671,5 +671,5 @@ export default {
   }
 }
 
-@import url("https://use.fontawesome.com/releases/v5.0.9/css/all.css");
+/*@import url("https://use.fontawesome.com/releases/v5.0.9/css/all.css");*/
 </style>
