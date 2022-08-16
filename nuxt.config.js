@@ -4,7 +4,7 @@ export default {
     title: "Auction website",
     htmlAttrs: {
       lang: "en",
-    
+
     },
     meta: [
       { charset: "utf-8" },
@@ -16,25 +16,12 @@ export default {
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
-        href: "./CSS/bootstrap.min.css",
+        href: "./css/bootstrap.min.css",
       },
        {
         rel: "stylesheet",
-        href: "./CSS/bootstrap.rtl.min.css",
+        href: "./css/bootstrap.rtl.min.css",
       },
-      // {
-      //   rel: "stylesheet",
-      //   href: "./CSS/product_style.css",
-      // },
-      
-      // {
-      //   rel: "stylesheet",
-      //   href: "./CSS/style.css",
-      // },
-      // {
-      //   rel: "stylesheet",
-      //   href: "./CSS/user_style.css",
-      // },
     ],
     script: [
       {
@@ -52,7 +39,7 @@ export default {
   css: [
     // '~/static/CSS/fnt.css',
     '~/assets/css/app.css',
-    
+
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
