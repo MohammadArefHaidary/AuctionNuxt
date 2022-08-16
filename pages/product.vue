@@ -6,7 +6,7 @@
           class="col-md-12 d-flex justify-content-center"
           style="margin-top: 109px"
         >
-          <img src="../static/images/new.avif" alt="" class="img-fluid imgg" />
+          <img src="~/assets/images/new.avif" alt="" class="img-fluid imgg" />
         </div>
       </div>
     </div>
@@ -264,7 +264,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="~/assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -322,7 +322,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="~/assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -380,7 +380,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="~/assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -438,7 +438,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="~/assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -496,7 +496,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="~/assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -554,7 +554,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="~/assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"
@@ -612,7 +612,7 @@
                   <a href="">
                     <div class="offer">
                       <img
-                        src="../static/images/new.avif"
+                        src="~/assets/images/new.avif"
                         alt=""
                         class="img-fluid"
                         style="border-radius: 50%"

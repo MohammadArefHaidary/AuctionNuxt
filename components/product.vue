@@ -2,18 +2,18 @@
   <div>
      <div class="container">
         <div class="row">
-            
+
             <div class="col-sm-5 col-md-6 column2">
                   <NuxtLink to="/product"><img
-                        src="/images/new.avif" alt="" style="width: 100%;" class="img-fluid">
+                        src="~/assets/images/new.avif" alt="" style="width: 100%;" class="img-fluid">
              </NuxtLink>
             </div>
             <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 column2" dir="rtl">
-               
-                 
+
+
                         <h2>تاپ تهران آثار</h2>
-                  
-              
+
+
                 <div>
                     <div class="r1">
                         <div class="r11 gray_color">
@@ -75,7 +75,7 @@
      <div class="moditit" dir="rtl" style="font-weight:500;font-size:24px;margin-right:18px">مدیریت مجموعه ها</div>
 
     </div>
-    
+
     <div class="container-fluid main1">
 
         <div class="bcolor dv">
@@ -99,7 +99,7 @@
                 </div>
                 <div class="main-card gallery ">
                     <div class="card">
-                        <a href="#"><img src="/images/pexels-photo-1448136.jpeg" class="card-img-top" alt="..."
+                        <a href="#"><img src="~/assets/images/pexels-photo-1448136.jpeg" class="card-img-top" alt="..."
                                 style="height: 24rem;"></a>
                         <div class="hover-image">
                             <a href="" class="test">آرزوها</a>
@@ -122,7 +122,7 @@
                     </div>
 
                     <div class="card">
-                        <a href=""><img src="/images/pexels-photo-2159549.jpeg" class="card-img-top" alt="..."
+                        <a href=""><img src="~/assets/images/pexels-photo-2159549.jpeg" class="card-img-top" alt="..."
                                 style="height: 24rem;"></a>
                         <div class="hover-image">
                             <a href="" class="test">آرزوها</a>
@@ -143,7 +143,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <a href=""><img src="/images/pexels-photo-2184580.jpeg" class="card-img-top" alt="..."
+                        <a href=""><img src="~/assets/images/pexels-photo-2184580.jpeg" class="card-img-top" alt="..."
                                 style="height: 24rem;"></a>
                         <div class="hover-image">
                             <a href="" class="test">آرزوها</a>
@@ -189,7 +189,7 @@
                 </div>
                 <div class="main-card gallery">
                     <div class="card">
-                        <a href=""><img src="/images/pexels-photo-2225440.jpeg" class="card-img-top" alt="..."
+                        <a href=""><img src="~/assets/images/pexels-photo-2225440.jpeg" class="card-img-top" alt="..."
                                 style="height: 24rem;"></a>
                         <div class="hover-image">
                             <a href="" class="test">آرزوها</a>
@@ -212,7 +212,7 @@
                     </div>
 
                     <div class="card">
-                        <a href=""><img src="/images/pexels-photo-2350368.jpeg" class="card-img-top" alt="..."
+                        <a href=""><img src="~/assets/images/pexels-photo-2350368.jpeg" class="card-img-top" alt="..."
                                 style="height: 24rem;"></a>
                         <div class="hover-image">
                             <a href="" class="test">آرزوها</a>
@@ -233,7 +233,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <a href=""><img src="/images/pexels-photo-2437931.jpeg" class="card-img-top" alt="..."
+                        <a href=""><img src="~/assets/images/pexels-photo-2437931.jpeg" class="card-img-top" alt="..."
                                 style="height: 24rem;"></a>
                         <div class="hover-image">
                             <a href="" class="test">آرزوها</a>
@@ -280,7 +280,7 @@
                 </div>
                 <div class="main-card gallery">
                     <div class="card">
-                        <a href=""><img src="/images/pexels-photo-262786.jpeg" class="card-img-top" alt="..."
+                        <a href=""><img src="~/assets/images/pexels-photo-262786.jpeg" class="card-img-top" alt="..."
                                 style="height: 24rem;"></a>
                         <div class="hover-image">
                             <a href="" class="test">آرزوها</a>
@@ -306,7 +306,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <a href=""><img src="/images/pexels-photo-2792601.jpeg" class="card-img-top" alt="..."
+                        <a href=""><img src="~/assets/images/pexels-photo-2792601.jpeg" class="card-img-top" alt="..."
                                 style="height: 24rem;"></a>
                         <div class="hover-image">
                             <a href="" class="test">آرزوها</a>
@@ -327,7 +327,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <a href="#"><img src="/images/pexels-photo-2886268.jpeg" class="card-img-top" alt="..."
+                        <a href="#"><img src="~/assets/images/pexels-photo-2886268.jpeg" class="card-img-top" alt="..."
                                 style="height: 24rem;"></a>
                         <div class="hover-image">
                             <a href="" class="test">آرزوها</a>
